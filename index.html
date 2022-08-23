@@ -1,42 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Web | Portofolio</title>
+<html><head>
+<title>
+Tugas zakiya7765
+</title>
+
+<link href="https://fonts.googleapis.com/css?family=Exo:400,800" rel="stylesheet" type="text/css">
+
+<style>
+body {
+
+		background-color: #000;
+		color: #fff;
+		font-family: Exo;
+		font-weight: 800;
+		text-align: center;
+		}
+#content{
+		position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+		z-index: 3;
+		}
+#title {
+		font-size: 48px;
+		font-family: Exo;
+		color: #00ffff;
+		font-weight: 800;
+		}
+@keyframes move-twink-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position: 0 0;}
+    to {background-position: 10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position: 10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+}
+
+.stars {
+		background: #000 url(https://wallpapercave.com/wp/wp1890614.jpg) no-repeat top center;
+		z-index: -1;
+}
+
+.twinkling{
+		background: transparent url(https://wallpapercave.com/wp/wp1890614.jpg) repeat top center;
+		z-index: 1;
+		-moz-animation: move-twink-back 200s linear infinite;
+		-ms-animation: move-twink-back 200s linear infinite;
+		-o-animation: move-twink-back 200s linear infinite;
+		-webkit-animation: move-twink-back 200s linear infinite;
+		animation: move-twink-back 200s linear infinite;
+}
+
+.clouds{
+		background: transparent url(https://wallpapercave.com/wp/wp1890614.jpg) repeat center center fixed;;
+		z-index: 2;
+		-moz-animation: move-clouds-back 100s linear infinite;
+		-ms-animation: move-clouds-back 100s linear infinite;
+		-o-animation: move-clouds-back 100s linear infinite;
+		-webkit-animation: move-clouds-back 100s linear infinite;
+		animation: move-clouds-back 100s linear infinite;
+		size: cover;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="">Nama  :Zakiya Majid Abdullah Jawahir</a></li>
-                    <li><a href="">Kelas :XIIMMA</a></li>
-                    <li><a href="">No    :35</a></li> 
-                </ul>
-            </nav>
-        </div>
-        <main class="content">
-              <section class="hero">
-                  <img src="online.png" alt="">
-              <div class="hero-content">
-                  <h1>PKKWU</h1><br></h2>Pelajaran mengkoding</h2><br><br>   
-<p> Puyeng banget brooo</p>
-<a href="" class="action-btn">Profile Saya</a>
-              </div>
-                </section>
-        </div>
-        <div class="footer">
-            <footer>
-            <ul>
-                <li><img src="instagram.png" alt=""><p>Instagram</p></a></li>
-                <li><img src="facebook.png" alt=""><p>Facebook</p></a></li>
-                <li><img src="twitter.png" alt=""><p>Twitter</p></a></li>
-                <li><img src="telegram.png" alt=""><p>Telegram</p></a></li>
-            </ul>
-            </footer>
-        </div>
-    </div>    
-</body>
-</html>
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<div id="content">
+<div id="title">Jaki Slebew</font></div><br><br>
+<div> Tugas PKKWU </div>
+<div> Mumet uteke </div>
+<div> </div>
+
+<div><h5><font color="#d1bc02">zakiya7765@smkn1gombong.sch.id</font></h5></div>
+</div>
+</body></html>
